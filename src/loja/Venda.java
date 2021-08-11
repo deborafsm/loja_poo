@@ -24,7 +24,7 @@ public class Venda {
         Usuario usuario = new Usuario("Débora Freire","123.123.123-12","debora.freire@gmail.com");
         Usuario usuario1 = new Usuario("Gustavo Freitas","234.234.234.23","gustavo.freitas@gmail.com");
         Produto produto = new Produto("Tv",10.000,1);
-        Produto produto1 = new Produto("Geladeira",3.000,2);
+        Produto produto1 = new Produto("Geladeira",3.300,2);
         ItemProduto itemproduto = new ItemProduto();
         ItemProduto compras = new ItemProduto();
         //Metodo compra
