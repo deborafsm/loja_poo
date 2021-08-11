@@ -10,14 +10,15 @@ package loja.entities;
  * @author Code
  */
 public class ItemProduto {
+    
     public double compra(Usuario usuario, Produto produto) {
         double total;
         total = produto.getPreco()*produto.getQuantidade();
-        System.out.printf("Resumo da Compra \nNome:"+usuario.getNome() + "\nCPF:"+usuario.getCpf() +""
-                        + "\nE-mail"+usuario.getEmail()+"\nCompras\nNome do Produto:"+produto.getNome()+"\nPreço :"+produto.getPreco()+"\nQuantidade"+produto.getQuantidade()+"\nTotal:%.3f",total,"\n");
+        System.out.printf("-------Dados do Cliente------\nNome:"+usuario.getNome() + "\nCPF:"+usuario.getCpf() +""
+                        + "\nE-mail:"+usuario.getEmail()+"\n------------Compras-----------\nNome do Produto:"+produto.getNome()+"\nPreço :"+produto.getPreco()+"\nQuantidade:"+produto.getQuantidade()+"\nTotal:%.3f",total,"\n");
         return 0;
         
                 
 	}
-    
+   
 }

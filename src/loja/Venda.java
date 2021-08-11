@@ -19,7 +19,7 @@ public class Venda {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
         //Instancia da Classe e preenchimento dos atributos
         Usuario usuario = new Usuario("Débora Freire","123.123.123-12","debora.freire@gmail.com");
         Usuario usuario1 = new Usuario("Gustavo Freitas","234.234.234.23","gustavo.freitas@gmail.com");
